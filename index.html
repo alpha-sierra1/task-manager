@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Task Manager</title>
+  </head>
+  <body>
+    <div>
+      <div class="label">
+        <div>
+          <label for="inputField">Enter your Task:</label>
+          <input
+            type="text"
+            id="inputField"
+            name="inputField"
+            placeholder="Your task"
+          />
+        </div>
+        <div>
+          <button id="button">Add</button>
+        </div>
+      </div>
+      <div class="tasks" id="ulList">
+        <ul id="list">
+          <li>To kill a mockingbird</li>
+          <li>To grab Nuniz from under the table</li>
+          <li>To bathe Nuniz</li>
+          <li>To cry in the corner</li>
+        </ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- 
+ 1) You have a input component 
+ 2) Below the input component there’s a ul tags which contains li elements
+ 3)next to input component there’s a button tag (Button component I mean)
+ 4) You type into the input type text component and hit add button
+ 5) Then it adds dynamically to the list 
+ 6) The li elements will be rendered right below the input  -->
