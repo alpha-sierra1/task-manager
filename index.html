@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="style.css" rel="stylesheet" />
-    <title>Task Manager</title>
-  </head>
   <body>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link href="style.css" rel="stylesheet" />
+
+      <title>Task Manager</title>
+    </head>
     <div>
-      <div class="label">
-        <div>
+      <div>
+        <div class="label">
           <label for="inputField">Enter your Task:</label>
           <input
             type="text"
@@ -18,18 +19,16 @@
             name="inputField"
             placeholder="Your task"
           />
-        </div>
-        <div>
           <button id="button">Add</button>
         </div>
-      </div>
-      <div class="tasks" id="ulList">
-        <ul id="list">
-          <li>To kill a mockingbird</li>
-          <li>To grab Nuniz from under the table</li>
-          <li>To bathe Nuniz</li>
-          <li>To cry in the corner</li>
-        </ul>
+        <div class="tasks" id="ulList">
+          <ul>
+            <li><input type="checkbox" />To kill a mockingbird</li>
+            <li><input type="checkbox" />To grab Nuniz from under the table</li>
+            <li><input type="checkbox" />To bathe Nuniz</li>
+            <li><input type="checkbox" />To cry in the corner</li>
+          </ul>
+        </div>
       </div>
     </div>
     <script src="script.js"></script>
